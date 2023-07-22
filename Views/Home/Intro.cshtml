@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Intro Page";
+}
+
+@section DemoSection {
+    <div>
+        <h3><center>Kamaljit Kaur</center></h3>
+    </div>
+    <center>
+    <div>
+        <p>This is a paragraph</p>
+    </div>
+
+    <div>
+        <form id="sumForm" method="post">
+            <div>
+                <label for="number1">Number 1</label>
+                <input type="number" id="number1" name="number1" />
+            </div>
+
+            <div>
+                <label for="number2">Number 2</label>
+                <input type="number" id="number2" name="number2" />
+            </div>
+
+            <div>
+                <label for="output">Result</label>
+                <output id="output" name="output"></output>
+            </div>
+
+            <div>
+                <button type="button" onclick="calculateSum()">Calculate Sum</button>
+            </div>
+        </form>
+    </div>
+
+    </center>
+
+    <script>
+        function calculateSum() {
+            var number1 = parseInt(document.getElementById("number1").value);
+            var number2 = parseInt(document.getElementById("number2").value);
+            var sum = number1 + number2;
+            document.getElementById("output").value = sum;
+        }
+    </script>
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Webapp-1001/1.0.0": {
+        "runtime": {
+          "Webapp-1001.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Webapp-1001/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
